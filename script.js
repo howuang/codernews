@@ -3,7 +3,7 @@
 // [ ] As a reader I can see the total number of stories currently shown.
 // [x] As a reader I can see all the categories available.
 // [ ] As a reader I can see click on a category and see stories in that category.
-// [ ] As a reader I can see all the languages available.
+// [x] As a reader I can see all the languages available.
 // [ ] As a reader I can see click on a language and see stories in that language.
 // [ ] As a reader I can click a link at the bottom of the page to load the next 20 stories. The page should not refresh; the stories should add to the bottom of the page.
 // [ ] As a reader I can search for articles using a searchbar at the top of the page.
