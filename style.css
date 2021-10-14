@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(223, 223, 223);
+  font-family: "Open Sans", sans-serif;
+}
+#navbar {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  height: 80px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-container {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.navbar-container h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.navbar-container a {
+  color: white;
+  opacity: 80%;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.navbar-container a:hover {
+  opacity: 100%;
+}
+
+.home {
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.search-box {
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  padding: 5px;
+  border: none;
+}
+
+.navbar-container button {
+  height: 30px;
+  border-radius: 15px;
+  background-color: rgb(175, 175, 175);
+  border: none;
+  opacity: 75%;
+}
+
+.navbar-container button:hover {
+  opacity: 100%;
+}
+
+.main-content {
+  width: 100%;
+  display: flex;
+  flex-direction: columns;
+  justify-content: center;
+}
+
+.news-container {
+  max-width: 1000px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  flex-basis: 60%;
+  background: white;
+  padding: 30px;
+  border: 1px solid rgb(175, 175, 175);
+}
+
+.news-container img {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.news-container:hover {
+  box-shadow: 5px 5px 8px #b6b6b6;
+}
+li {
+  list-style: none;
+}
+
+.source-time {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.read-more-btn {
+  border: 1px solid rgb(177, 177, 177);
+  text-decoration: none;
+  color: black;
+  border-radius: 20px;
+  background-color: white;
+  padding: 5px 10px;
+}
+
+.read-more-btn:hover {
+  background-color: rgb(177, 177, 177);
+}
